@@ -1,5 +1,5 @@
 FROM tomcat:8.5
-COPY root.war /usr/local/tomcat/webapps/
+COPY hungry-aussie.war /usr/local/tomcat/webapps/
 
 ## Add the wait script to the image
 ADD https://github.com/ufoscout/docker-compose-wait/releases/download/2.6.0/wait /wait

@@ -17,7 +17,7 @@ services:
     build: .
     container_name: tomcat
     volumes:
-      - ./root.war:/usr/local/tomcat/webapps/root.war
+      - ./hungry-aussie.war:/usr/local/tomcat/webapps/hungry-aussie.war
     ports:
       - "8080:8080"
     links:
