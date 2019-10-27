@@ -3,64 +3,6 @@
 # README (TEXT ONLY)
 # Full version please refer to Readme_Hungry_Aussie.docx
 
-Hungry Aussie
-
-Overview        2
-
-Significance of the system        2
-
-Steps to use the system        2
-
-Run the system        2
-
-Break down into interfaces        2
-
-1.Choose Table interface        2
-
-2.Order Food interface        3
-
-3.My Order interface        3
-
-4.Confirm Oder interface        4
-
-5.Location interface        4
-
-6.Login interface        5
-
-7.Welcom Staff interface        5
-
-8.Employee Management interface        6
-
-9.Order Management interface        6
-
-10.Order Information interface        7
-
-11.Account Management interface        8
-
-12.Menu Management interface        8
-
-13.Analysis interface        9
-
-Deployment        10
-
-PaaS deploying procedure        10
-
-Knowledge required        10
-
-Environment required        10
-
-Deployment        10
-
-Reminders        11
-
-SaaS deploying procedure        11
-
-Knowledge required        11
-
-Environment required        11
-
-Deployment        11
-
 ## Overview
 
 The system provides a computer-based all-in-one management service for users, which includes two patterns oriented to customers and the staff. In the customer pattern, it serves customers throughout the entire consuming lifecycle. Customers can use the system to choose table, finish orders, pay the bill and leave feedback. In the staff pattern, it provides the functions of menu management, account management, employee management, order management and dishes analysis.
