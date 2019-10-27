@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  mysql:
+    image: mysql:5.7
+    container_name: mysql
+    hostname: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: hungryaussis
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d
+    ports:
+       - "3306:3306"
+
+  tomcat:
+    build: .
+    container_name: tomcat
+    volumes:
+      - ./root.war:/usr/local/tomcat/webapps/root.war
+    ports:
+      - "8080:8080"
+    links:
+      - mysql
+    environment:
+      WAIT_HOSTS: mysql:3306
